@@ -1,13 +1,7 @@
-import numpy as np
+import turtle
 
 
-arr = np.array([1, 2, 3, 4, 5, 6])
+t = turtle.Turtle()
 
-arr = arr[np.newaxis, :]
-
-print(arr)
-
-
-
-
+t.forward(100)
 
